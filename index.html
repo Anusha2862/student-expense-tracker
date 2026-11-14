@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container"></div>
+
+    <h1>Student Expense Tracker</h1>
+
+    <p>Welcome To My First Project!</p>
+
+    <h2>Add New Expense</h2>
+
+    <label>Expense Name:</label>
+    <input type="text">
+
+    <br><br>
+
+    <label>Amount:</label>
+    <input type="number">
+
+    <br><br>
+
+    <label>Category:</label>
+
+    <select>
+        <option>Food</option>
+        <option>Travel</option>
+        <option>Shopping</option>
+        <option>Education</option>
+        <option>Other</option>
+    </select>
+
+    <br><br>
+
+    <button>Add Expense</button>
+    <h2>Expense List</h2>
+
+<ul id="expenseList"></ul>
+
+<h3>Total Expense: ₹<span id="totalExpense">0</span></h3>
+<h3>Category Summary</h3>
+
+<p>Food: ₹<span id="foodTotal">0</span></p>
+<p>Travel: ₹<span id="travelTotal">0</span></p>
+<p>Education: ₹<span id="educationTotal">0</span></p>
+<p>Other: ₹<span id="otherTotal">0</span></p>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
